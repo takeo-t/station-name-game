@@ -1,0 +1,12 @@
+name = "station-name-game"
+type = "javascript"
+account_id = "8e56cbdc2311b81f9a239d0a10a7e8d0"
+workers_dev = true
+compatibility_date = "2025-01-07"
+
+[build]
+command = "npm run deploy"
+
+[[pages]]
+function_directory = "./.vercel/output/functions"
+output_directory = "./.vercel/output/static"
